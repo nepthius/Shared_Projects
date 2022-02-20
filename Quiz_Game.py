@@ -111,12 +111,10 @@ while(ph):
 #This file is for the second half of the questions as well as declaring values and presenting final results
 
 
-
-
 #Asking questions
 ph = True
 while(ph):
-    Curr = input("What do you do during Halloween? \nHalloween Party, Share Candy with Friends, Close the Lights and Act Like You Aren't Home, Steal Other People's Candy\n")
+    Curr = input("What do you do during Halloween? \nHalloween Party, Share Candy with Friends, Close the Lights and Act Like You Aren't Home, Steal Other People's Candy:\n")
    
     if Curr[0] == "H" or Curr[0] == "h":
         Chars[0] += 1
@@ -139,6 +137,133 @@ while(ph):
 
     else: 
         print("Not a valid response, please type one of the answers exactly as your reply\n\n")
+
+
+ph = True
+while(ph):
+    Curr = input("What's your favorite color? \nGreen, Purple, Red, Yellow: \n")
+   
+    if Curr[0] == "G" or Curr[0] == "g":
+        Chars[7] += 1
+        Chars[5] += 1
+        ph = False
+
+    elif Curr[0] == "P" or Curr[0] == "p":
+        Chars[6] += 1
+        Chars[8] += 1
+        ph = False
+
+    elif Curr[0] == "R" or Curr[0] == "r":
+        Chars[0] += 1
+        Chars[3] += 1
+        ph = False
+
+    elif Curr[0] == "Y" or Curr[0] == "y":
+        Chars[7] += 1
+        Chars[1] += 1
+        ph = False
+
+    else: 
+        print("Not a valid response, please type one of the answers exactly as your reply\n\n")
+
+
+ph = True
+while(ph):
+    Curr = input("What's your favorite season? \nFall, Summer, Winter, Spring:\n")
+   
+    if Curr[0] == "F" or Curr[0] == "f":
+        Chars[6] += 1
+        ph = False
+
+    elif Curr[0] == "S" or Curr[0] == "s":
+        if Curr[1] == "u" or Curr[1] == "U":
+            Chars[1] += 1
+            ph = False
+
+        elif Curr[1] == "p" or Curr[1] == "P":
+            Chars[7] += 1
+            Chars[5] += 1
+            ph = False
+
+    elif Curr[0] == "W" or Curr[0] == "w":
+        Chars[4] += 1
+        Chars[8] += 1
+        ph = False
+
+    else: 
+        print("Not a valid response, please type one of the answers exactly as your reply\n\n")
+
+
+ph = True
+while(ph):
+    Curr = input("What's your fear? \nSocial interaction, Death, Loneliness, Claustraphobia: \n")
+   
+    if Curr[0] == "S" or Curr[0] == "s":
+        Chars[4] += 1
+        ph = False
+
+    elif Curr[0] == "D" or Curr[0] == "d":
+        Chars[7] += 1
+        ph = False
+
+    elif Curr[0] == "L" or Curr[0] == "l":
+        Chars[9] += 1
+        ph = False
+
+    elif Curr[0] == "C" or Curr[0] == "c":
+        Chars[3] += 1
+        ph = False
+
+    else: 
+        print("Not a valid response, please type one of the answers exactly as your reply\n\n")
+
+
+ph = True
+while(ph):
+    Curr = input("What's your favorite food? \nMac and Cheese, Salad, Chicken: \n")
+   
+    if Curr[0] == "M" or Curr[0] == "m":
+        Chars[2] += 1
+        ph = False
+
+    elif Curr[0] == "S" or Curr[0] == "s":
+        Chars[5] += 1
+        ph = False
+
+    elif Curr[0] == "C" or Curr[0] == "c":
+        Chars[4] += 1
+        ph = False
+
+    else: 
+        print("Not a valid response, please type one of the answers exactly as your reply\n\n")
+
+
+ph = True
+while(ph):
+    Curr = input("What's your ideal weather?\nSnowing, Cloudy, Sunny, Foggy:\n")
+   
+    if Curr[0] == "F" or Curr[0] == "f":
+        Chars[3] += 1
+        ph = False
+
+    elif Curr[0] == "S" or Curr[0] == "s":
+        if Curr[1] == "u" or Curr[1] == "U":
+            Chars[1] += 1
+            ph = False
+
+        elif Curr[1] == "n" or Curr[1] == "N":
+            Chars[8] += 1
+            ph = False
+
+    elif Curr[0] == "C" or Curr[0] == "c":
+        Chars[2] += 1
+        ph = False
+
+    else: 
+        print("Not a valid response, please type one of the answers exactly as your reply\n\n")
+
+
+
 
 mh = 0
 mx = 0
