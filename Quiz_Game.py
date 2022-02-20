@@ -13,11 +13,11 @@ while(ph):
 		Chars[2]+=1
 		Chars[3]+=1
 		ph = False
-	elif(Curr==[0]'S' or Curr[0]=='s'): 
+	elif(Curr==[0]=='S' or Curr[0]=='s'): 
 		Chars[7]+=1
 		Chars[8]+=1
 		ph = False
-	elif(Curr==[0]'E' or Curr[0]=='e'):
+	elif(Curr==[0]=='E' or Curr[0]=='e'):
 		Chars[5]+=1
 		Chars[6]+=1
 		Chars[9]+=1
