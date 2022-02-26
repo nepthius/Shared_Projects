@@ -1,6 +1,6 @@
+<<<<<<< HEAD
 #Declaring variable (0 - beserker, 1 - paladin, 2 - juggernaut, 3 - Assasin, 4 - Archer, 5 - Druid, 6 - Necromancer, 8 - Cleric, 9 - Illusionist, 10 - Summoner)
 Chars = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-
 ph  = True 
 while(ph):
 	Curr = input("What is your favorite sport? \n Basketball, MMA, Equestrian, or Skateboarding")
